@@ -73,7 +73,7 @@ docker run -d --name practice-limited \
 docker stats --no-stream practice-limited
 ```
 <img width="974" height="200" alt="image" src="https://github.com/user-attachments/assets/bda226dc-3106-4616-af26-9d95c7c24d7f" />
-```
+```bash
 # Обновление лимитов на работающем контейнере
 docker update --memory=512m practice-limited
 
